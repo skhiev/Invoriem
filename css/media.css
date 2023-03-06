@@ -1,0 +1,138 @@
+@media (max-width: 1000px) {
+  .header__title {
+    font-size: 50px;
+    margin-bottom: 28px;
+  }
+  .header__text {
+    font-size: 24px;
+    margin-bottom: 52px;
+  }
+  .nav__list {
+    column-gap: 60px;
+  }
+  .case-studies {
+    padding: 100px 0;
+  }
+  .about {
+    padding: 100px 0;
+  }
+  .footer__row {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 32px;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  .nav__logo {
+    max-width: 109px;
+  }
+  .nav__list {
+    display: none;
+  }
+  .nav__btn {
+    display: block;
+  }
+  .header__content-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 27px;
+
+    color: rgba(31, 31, 31, 0.7);
+  }
+  .header__logo-mobile {
+    width: 244px;
+  }
+  .header__content {
+    display: none;
+  }
+  .header__content-mobile-text {
+    max-width: 237px;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    letter-spacing: 0.06em;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .header__arrows {
+    width: 19px;
+    height: 16px;
+    bottom: 32px;
+  }
+  .case-studies {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .case-studies__title {
+    margin-bottom: 7px;
+  }
+  .case-studies__text {
+    margin-bottom: 31px;
+  }
+  .title {
+    font-size: 32px;
+  }
+  .text {
+    font-size: 16px;
+    line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 0.06em;
+  }
+  .slide {
+    padding-left: 33px;
+  }
+  .slide-img {
+    width: 224px;
+    height: 264px;
+  }
+  .slide__title {
+    bottom: 22px;
+
+    font-size: 60px;
+
+    background: linear-gradient(
+      90deg,
+      rgba(17, 68, 85, 1) 33px,
+      rgba(255, 255, 255, 1) 33px
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  /* about */
+  .about {
+    padding-top: 0;
+    padding-bottom: 80px;
+  }
+  .about__title {
+    margin-bottom: 7px;
+  }
+  .about__text {
+    margin-bottom: 40px;
+  }
+  .video__btn {
+    width: 48px;
+    height: 48px;
+  }
+  .footer {
+    padding: 32px 0;
+    text-align: center;
+  }
+  .footer__nav {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .footer__email a {
+    font-size: 16px;
+    color: #4a2ad3;
+  }
+  .footer__social {
+    display: flex;
+    column-gap: 26px;
+  }
+  .footer__copyright {
+    font-size: 14px;
+  }
+}
